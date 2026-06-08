@@ -10,17 +10,22 @@
 - 添加基础 C# 脚本，并在代码中写入中文注释。
 - 添加 README、CHANGELOG、VERSION、AGENTS 和 Git 忽略规则。
 
-## 当前阻塞
+## Unity 编辑器状态
 
-- 本机 `E:\Unity\Hub\Editor\6000.4.8f1` 目录存在，但未找到 `Unity.exe`。
-- 已尝试运行本机安装包和 Unity Hub headless 安装命令，仍未检测到编辑器本体。
-- 后续需要先修复 Unity 编辑器安装，再用 Unity 打开工程生成正式场景对象、Canvas、相机、灯光和 `.meta` 文件。
+- 已检测到 Unity 编辑器：`E:\Unity\Hub\Editor\6000.4.10f1\Editor\Unity.exe`。
+- 项目版本已同步为 `6000.4.10f1`，changeset 为 `feeafc12a938`。
+- 官方发布页显示该版本发布于 2026-06-03。
+
+## Unity 批处理验证
+
+- 已通过 `InterviewDemo.EditorTools.PhaseOneSceneBuilder.BuildAll` 生成基础场景。
+- `MainMenu` 场景包含相机、灯光、EventSystem、Canvas、标题、版本号、开始按钮和退出按钮。
+- `CombatDemo` 场景包含俯视相机、灯光、地面、玩家占位、敌人占位、战斗流程入口和基础 UI。
+- 已生成原型材质：`PrototypeGround`、`PrototypePlayer`、`PrototypeEnemy`。
+- 日志中存在 Unity 授权/Access token 警告，但批处理正常结束，未发现 C# 编译错误。
 
 ## 下一步
 
-- 修复或重新安装 Unity 编辑器。
-- 用 Unity 打开项目，让 Package Manager 解析依赖。
-- 创建正式 `MainMenu` 场景对象：相机、灯光、Canvas、标题、开始按钮、退出按钮、版本号文本。
-- 创建正式 `CombatDemo` 场景对象：地面、相机、灯光、玩家出生点、战斗入口对象。
-- 检查 Console，确保没有编译错误。
-
+- 用 Unity 手动打开项目，确认两个场景的实际视觉排版。
+- 第二阶段接入玩家移动、攻击、闪避、生命值和基础战斗 UI。
+- 检查 Console，确保进入播放模式后没有运行时错误。

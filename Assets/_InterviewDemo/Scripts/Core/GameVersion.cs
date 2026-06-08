@@ -11,7 +11,6 @@ namespace InterviewDemo.Core
         /// 第一阶段版本：只包含工程骨架和基础入口脚本。
         /// 后续每完成一个阶段，都需要同步更新这里、VERSION 文件和 CHANGELOG。
         /// </summary>
-        public const string Current = "v0.1.0";
+        public const string Current = "v0.1.1";
     }
 }
-
