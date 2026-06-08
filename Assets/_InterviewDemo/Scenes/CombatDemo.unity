@@ -900,7 +900,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4E0B\u4E00\u9636\u6BB5\u5C06\u63A5\u5165\u73A9\u5BB6\u79FB\u52A8\u3001\u653B\u51FB\u3001\u95EA\u907F\u548C\u751F\u547D\u503C"
+  m_Text: "\u7B2C\u4E8C\u9636\u6BB5\uFF1A\u5DF2\u63A5\u5165\u79FB\u52A8\u3001\u9F20\u6807\u671D\u5411\u3001\u653B\u51FB\u3001\u95EA\u907F\u3001\u751F\u547D\u503C\u548C HUD"
 --- !u!222 &1629173733
 CanvasRenderer:
   m_ObjectHideFlags: 0

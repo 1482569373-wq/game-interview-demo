@@ -8,9 +8,9 @@ namespace InterviewDemo.Core
     public static class GameVersion
     {
         /// <summary>
-        /// 第一阶段可见性修复版本：打开 Unity 项目时会自动引导到 Demo 主菜单。
+        /// 第二阶段版本：完成玩家移动、鼠标朝向、普通攻击、闪避、生命值和基础 HUD。
         /// 后续每完成一个阶段，都需要同步更新这里、VERSION 文件和 CHANGELOG。
         /// </summary>
-        public const string Current = "v0.1.2";
+        public const string Current = "v0.2.0";
     }
 }
