@@ -1,0 +1,37 @@
+# Unity 生成目录：不提交 Library/Temp/Build 等机器相关或构建输出数据。
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Unity 自动生成的崩溃与内存快照。
+MemoryCaptures/
+Recordings/
+
+# Visual Studio / Rider / VS Code 本地配置。
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# 操作系统生成文件。
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 打包产物与临时下载文件。
+*.apk
+*.aab
+*.exe.aria2
+*.zip
+*.7z
+
