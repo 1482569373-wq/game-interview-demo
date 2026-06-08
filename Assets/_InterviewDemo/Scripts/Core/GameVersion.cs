@@ -8,9 +8,9 @@ namespace InterviewDemo.Core
     public static class GameVersion
     {
         /// <summary>
-        /// 第一阶段版本：只包含工程骨架和基础入口脚本。
+        /// 第一阶段可见性修复版本：打开 Unity 项目时会自动引导到 Demo 主菜单。
         /// 后续每完成一个阶段，都需要同步更新这里、VERSION 文件和 CHANGELOG。
         /// </summary>
-        public const string Current = "v0.1.1";
+        public const string Current = "v0.1.2";
     }
 }
